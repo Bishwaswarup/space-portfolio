@@ -57,6 +57,20 @@ export const projects = [
     speed: 0.07,
     size: 0.5,
   },
+  {
+  id: 'vision-rendezvous',
+  name: 'Vision-Based Spacecraft Rendezvous',
+  tagline: 'Closed-loop autonomous docking with robust visual pose estimation',
+  description:
+    'A modular Python simulation framework for autonomous spacecraft rendezvous. Integrates EPnP pose estimation, RANSAC outlier rejection, MEKF/UKF state estimation, and LQR/MPC guidance under HCW relative orbital dynamics. Validated end-to-end via Monte Carlo: 100 % docking success across 0.3–4.0 px image noise. Published as a preprint on Zenodo.',
+  stack: ['Python', 'NumPy', 'SciPy', 'OpenCV', 'CVXPY'],
+  stats: { stars: '—', commits: '—', status: 'Published' },
+  repo: 'https://zenodo.org/records/22062060',
+  color: '#818cf8',
+  radius: 9,
+  speed: 0.10,
+  size: 0.45,
+},
 ];
 
 export const profile = {
